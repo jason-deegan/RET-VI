@@ -1,0 +1,4 @@
+geography_id,geography_type,geography_name,year,indicator_id,indicator_name,value,unit,source,source_version,method_note,coverage_start,coverage_end,quality_flag,suppression_flag,notes
+1103,kommune,Stavanger,2024,wp2_skill_mismatch,Placeholder: regional skill mismatch,,index,WP2,PLACEHOLDER,Awaiting WP2 specification,,,placeholder,False,Replace with WP2 output; do not use for substantive analysis.
+1103,kommune,Stavanger,2024,wp2_transition_exposure,Placeholder: regional transition exposure,,index,WP2,PLACEHOLDER,Awaiting WP2 specification,,,placeholder,False,Replace with WP2 output; do not use for substantive analysis.
+1103,kommune,Stavanger,2024,wp2_adaptation_capacity,Placeholder: regional adaptation capacity,,index,WP2,PLACEHOLDER,Awaiting WP2 specification,,,placeholder,False,Replace with WP2 output; do not use for substantive analysis.

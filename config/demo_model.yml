@@ -1,0 +1,33 @@
+# RET-VI demonstration model — NOT a proposed final methodology
+model_id: DEMO_0.1
+status: demonstration_only
+warning: "Synthetic values and provisional mathematics are used solely to make the intended user experience tangible."
+
+standardisation:
+  method: min_max_0_100
+  note: "Chosen for visual demonstration only. This does not inherit or recommend the historical NGTVI method."
+
+dimension_weights:
+  Exposure: 0.3333
+  Sensitivity: 0.3333
+  Adaptive Capacity: 0.3334
+
+indicator_weights:
+  within_dimension: equal
+
+directionality:
+  positive: higher_raw_means_higher_vulnerability
+  negative: higher_raw_means_lower_vulnerability
+
+missing_data:
+  method: show_as_missing
+  note: "No imputation in the demonstration."
+
+active_demo_indicators:
+  - energy_employment_share
+  - energy_sector_specialisation
+  - energy_sector_age_profile
+  - energy_skill_profile
+  - wp1_skill_demand_green
+  - wp1_skill_supply_green
+  - wp1_skill_relatedness

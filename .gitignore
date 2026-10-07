@@ -1,0 +1,22 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.log
+
+# Local R package environments
+renv/library/
+renv/staging/
+
+# Local/generated outputs
+outputs/*
+!outputs/maps/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/exports/.gitkeep
+
+# Local data that should not be committed unless explicitly intended
+# data/raw/*
+
+# Deployment credentials/configuration
+rsconnect/

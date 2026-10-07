@@ -1,0 +1,8 @@
+geography_id,geography_type,geography_name,level_role,boundary_version,status,source,notes
+1103,kommune,Stavanger,primary_spatial_unit,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+1106,kommune,Sauda,primary_spatial_unit,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+1108,kommune,Sandnes,primary_spatial_unit,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+1110,kommune,Kvitsøy,primary_spatial_unit,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+1112,kommune,Lund,primary_spatial_unit,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+11,fylke,Rogaland,higher_level_context,current_placeholder,example,SSB/Geonorge,Example only; verify authoritative boundary/version before production use.
+AMR_EX_01,arbeidsmarkedsregion,Example Stavanger labour-market region,analytical_unit,placeholder_v0,example,RENOVATE,Illustrative analytical geography only; replace with agreed AMR definition/ID.

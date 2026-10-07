@@ -1,0 +1,61 @@
+# RET-VI indicator specification
+# Stage 3A: formal metadata contract established; substantive active indicators are NOT yet locked.
+# Public demonstration registry: data/metadata/demo_indicator_registry.csv
+
+schema_version: "0.1"
+status: "working_specification"
+
+required_fields:
+  - indicator_id
+  - indicator_name
+  - dimension
+  - concept
+  - description
+  - source
+  - source_version
+  - geography_type
+  - time_period
+  - unit
+  - direction
+  - aggregation_method
+  - standardisation_method
+  - provisional_weight
+  - status
+  - owner
+  - method_note
+  - data_quality_note
+
+allowed_dimensions:
+  - Exposure
+  - Sensitivity
+  - Adaptive Capacity
+
+allowed_status:
+  - candidate
+  - active
+  - placeholder
+  - retired
+
+allowed_direction:
+  - positive
+  - negative
+  - context_dependent
+  - to_be_specified
+
+allowed_aggregation_method:
+  - sum
+  - weighted_mean
+  - recompute
+  - none
+  - not_applicable
+  - to_be_specified
+
+allowed_standardisation_method:
+  - min_max
+  - rank_percentile
+  - z_score
+  - robust_z_score
+  - none
+  - to_be_specified
+
+registry_file: data/metadata/demo_indicator_registry.csv

@@ -1,0 +1,63 @@
+# RET-VI geography specification
+# Stage 3B — geography architecture and transformation rules
+
+schema_version: "0.1"
+status: "working_specification"
+
+default_geography: kommune
+
+levels:
+  - id: kommune
+    name: Kommune
+    role: primary_spatial_unit
+    default_for_portal: true
+    identifier: stable_municipality_id
+    boundary_status: current_authoritative
+  - id: arbeidsmarkedsregion
+    name: Arbeidsmarkedsregion
+    role: analytical_unit
+    default_for_portal: false
+    identifier: stable_or_versioned_amr_id
+    boundary_status: source_specific_or_versioned
+  - id: fylke
+    name: Fylke
+    role: higher_level_context
+    default_for_portal: false
+    identifier: stable_county_id
+    boundary_status: current_authoritative
+
+join_rule: "Use stable geography IDs; never join production data on names alone."
+
+transformation_methods:
+  - direct_id
+  - sum
+  - weighted_mean
+  - recompute
+  - crosswalk_weighted
+  - none
+  - not_applicable
+
+aggregation_principles:
+  additive_quantity: sum
+  rate_or_share: weighted_mean_or_recompute
+  derived_index: recompute_or_documented_method
+  non_aggregatable: none
+
+boundary_policy:
+  default: current
+  historical: "Retain source geography and document transformation where a current-boundary value is produced."
+  rule: "Do not create false kommune-level precision when the source only supports fylke or another geography."
+
+crosswalk_policy:
+  required_metadata:
+    - source_geography_type
+    - source_geography_id
+    - target_geography_type
+    - target_geography_id
+    - transformation_method
+    - weight
+    - weight_basis
+    - source_version
+    - target_boundary_version
+    - notes
+  status: "Framework established; source-specific crosswalks to be added when needed."

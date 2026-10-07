@@ -1,0 +1,4 @@
+indicator_id,indicator_name,expected_definition,expected_unit,expected_geography,expected_direction,status,owner,notes
+wp2_skill_mismatch,Regional skill mismatch,To be defined by WP2,index / agreed WP2 unit,kommune or agreed WP2 geography,to be specified,placeholder,WP2,RET-VI requires a stable indicator ID and metadata.
+wp2_transition_exposure,Regional transition exposure,To be defined by WP2,index / agreed WP2 unit,kommune or agreed WP2 geography,to be specified,placeholder,WP2,RET-VI requires a stable indicator ID and metadata.
+wp2_adaptation_capacity,Regional adaptation capacity,To be defined by WP2,index / agreed WP2 unit,kommune or agreed WP2 geography,to be specified,placeholder,WP2,RET-VI requires a stable indicator ID and metadata.

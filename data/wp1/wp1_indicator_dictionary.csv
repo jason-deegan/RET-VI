@@ -1,0 +1,4 @@
+indicator_id,indicator_name,expected_definition,expected_unit,expected_geography,expected_direction,status,owner,notes
+wp1_skill_demand_green,Regional demand for transition-relevant skills,To be defined by WP1,index / agreed WP1 unit,kommune or agreed WP1 geography,to be specified,placeholder,WP1,RET-VI requires a stable indicator ID and metadata.
+wp1_skill_supply_green,Regional supply of transition-relevant skills,To be defined by WP1,index / agreed WP1 unit,kommune or agreed WP1 geography,to be specified,placeholder,WP1,RET-VI requires a stable indicator ID and metadata.
+wp1_skill_relatedness,Relatedness of regional skills to transition-relevant skills,To be defined by WP1,index / agreed WP1 unit,kommune or agreed WP1 geography,to be specified,placeholder,WP1,RET-VI requires a stable indicator ID and metadata.

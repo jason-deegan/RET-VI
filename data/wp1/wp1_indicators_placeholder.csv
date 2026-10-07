@@ -1,0 +1,4 @@
+geography_id,geography_type,geography_name,year,indicator_id,indicator_name,value,unit,source,source_version,method_note,coverage_start,coverage_end,quality_flag,suppression_flag,notes
+1103,kommune,Stavanger,2024,wp1_skill_demand_green,Placeholder: regional demand for transition-relevant skills,,index,WP1,PLACEHOLDER,Awaiting WP1 specification,,,placeholder,False,Replace with WP1 output; do not use for substantive analysis.
+1103,kommune,Stavanger,2024,wp1_skill_supply_green,Placeholder: regional supply of transition-relevant skills,,index,WP1,PLACEHOLDER,Awaiting WP1 specification,,,placeholder,False,Replace with WP1 output; do not use for substantive analysis.
+1103,kommune,Stavanger,2024,wp1_skill_relatedness,Placeholder: relatedness of regional skills to transition-relevant skills,,index,WP1,PLACEHOLDER,Awaiting WP1 specification,,,placeholder,False,Replace with WP1 output; do not use for substantive analysis.

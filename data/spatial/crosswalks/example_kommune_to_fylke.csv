@@ -1,0 +1,6 @@
+source_geography_type,source_geography_id,target_geography_type,target_geography_id,transformation_method,weight,weight_basis,source_version,target_boundary_version,notes
+kommune,1103,fylke,11,direct_id,1.0,administrative_membership,PLACEHOLDER,current_placeholder,Illustrative only.
+kommune,1106,fylke,11,direct_id,1.0,administrative_membership,PLACEHOLDER,current_placeholder,Illustrative only.
+kommune,1108,fylke,11,direct_id,1.0,administrative_membership,PLACEHOLDER,current_placeholder,Illustrative only.
+kommune,1110,fylke,11,direct_id,1.0,administrative_membership,PLACEHOLDER,current_placeholder,Illustrative only.
+kommune,1112,fylke,11,direct_id,1.0,administrative_membership,PLACEHOLDER,current_placeholder,Illustrative only.

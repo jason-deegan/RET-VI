@@ -1,0 +1,27 @@
+# RET-VI data-source catalogue
+# Stage 1: source categories only. Detailed source records will be added later.
+
+sources:
+  - id: ssb
+    name: Statistics Norway (SSB)
+    status: candidate
+
+  - id: nav
+    name: NAV
+    status: candidate
+
+  - id: miljodirektoratet
+    name: Miljødirektoratet
+    status: candidate
+
+  - id: geonorge
+    name: Geonorge
+    status: candidate
+
+  - id: wp1
+    name: RENOVATE WP1
+    status: placeholder
+
+  - id: wp2
+    name: RENOVATE WP2
+    status: placeholder

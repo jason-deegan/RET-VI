@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "geography_id": "1103",
+        "geography_name": "Stavanger",
+        "geography_type": "kommune",
+        "demo_geometry": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.55,
+              58.9
+            ],
+            [
+              5.78,
+              58.96
+            ],
+            [
+              5.86,
+              58.84
+            ],
+            [
+              5.72,
+              58.74
+            ],
+            [
+              5.52,
+              58.78
+            ],
+            [
+              5.55,
+              58.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography_id": "1108",
+        "geography_name": "Sandnes",
+        "geography_type": "kommune",
+        "demo_geometry": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.72,
+              58.74
+            ],
+            [
+              5.86,
+              58.84
+            ],
+            [
+              6.05,
+              58.72
+            ],
+            [
+              6.02,
+              58.53
+            ],
+            [
+              5.78,
+              58.55
+            ],
+            [
+              5.72,
+              58.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography_id": "1106",
+        "geography_name": "Sauda",
+        "geography_type": "kommune",
+        "demo_geometry": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.25,
+              59.72
+            ],
+            [
+              6.52,
+              59.7
+            ],
+            [
+              6.64,
+              59.52
+            ],
+            [
+              6.42,
+              59.37
+            ],
+            [
+              6.17,
+              59.5
+            ],
+            [
+              6.25,
+              59.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography_id": "1110",
+        "geography_name": "Kvitsøy",
+        "geography_type": "kommune",
+        "demo_geometry": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.25,
+              59.0
+            ],
+            [
+              5.39,
+              59.06
+            ],
+            [
+              5.47,
+              58.97
+            ],
+            [
+              5.39,
+              58.88
+            ],
+            [
+              5.24,
+              58.9
+            ],
+            [
+              5.25,
+              59.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "geography_id": "1112",
+        "geography_name": "Lund",
+        "geography_type": "kommune",
+        "demo_geometry": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.35,
+              58.45
+            ],
+            [
+              6.58,
+              58.55
+            ],
+            [
+              6.73,
+              58.4
+            ],
+            [
+              6.61,
+              58.18
+            ],
+            [
+              6.36,
+              58.23
+            ],
+            [
+              6.35,
+              58.45
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
